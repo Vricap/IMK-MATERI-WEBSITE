@@ -103,3 +103,17 @@ footer a {
   color: #d1c4c4;
   background-color: #453c3c;
 }
+
+@media (0 <= width <= 500px) {
+  .link-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .btn:link,
+  .btn:visited {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
